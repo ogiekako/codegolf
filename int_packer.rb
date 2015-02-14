@@ -1,3 +1,4 @@
+# Usage: echo "123\n345\n456" | ruby ./int_packer.rb
 a=$<.map{|s|s.chomp.to_i}
 templates="aAZbBhHcCsSiIlLqQmMnNvVfdeEgGpPuUw"
 encoding='N/A'
