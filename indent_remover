@@ -1,5 +1,0 @@
-#!/usr/bin/env ruby
-# Remove #\n
-# Remove indentations
-s=$<.read
-print s.split("\n").map{|s|s.strip}.join("\n").gsub(/#\n/,"").gsub(/\n*$/,"")
